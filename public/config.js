@@ -7,8 +7,8 @@ window.playername = "IPTVEditor Web Player";
 /*----- DNS -----*/
 //Iptv provider dns url (for example "http://domain.com:80")
 if(window.isDebug){
-  window.dns =  "http://localhost:3000/webplayer";
-}else window.dns = "https://api.iptveditor.com/webplayer";
+  window.dns =  "http://5ce.co:80";
+}else window.dns = "http://5ce.co:80";
 
 /*----- CORS -----*/
 /*/ Change on false if iptv provider has the Access-Control-Allow-Origin set on "*" or allows your player domain.
